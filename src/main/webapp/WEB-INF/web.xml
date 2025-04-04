@@ -1,0 +1,9 @@
+<security>
+  <authenticator class="org.openxava.security.JPAAuthenticator">
+    <properties>
+      <property name="userModel" value="Usuario"/>
+      <property name="passwordProperty" value="password"/>
+      <property name="passwordEncrypted" value="true"/>
+    </properties>
+  </authenticator>
+</security>
